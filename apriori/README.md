@@ -1,8 +1,8 @@
 ### Apriori Algorithm
 
-Apriori is used for association problems.
+Apriori is used for frequent itemset mining over relational databases. It uses prior knowledge of frequent itemset properties.
 
-Some terms used with Apriori algorithm:
+Some terms we need to know before implementing Apriori:
 
 Consider items I1 and I2 in a dataset consisting of transactions with the corresponding items bought:
 - Support (I1): Ratio between the number of transactions containing the item by the total number of transactions 
