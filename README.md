@@ -8,10 +8,14 @@ Take the time, learn your algorithm and code!
 
 ### Types of Algorithms
 
-Unsupervised learning problems are usually grouped into two types:
-1. Clustering: It mainly finds structures or patterns in a collection of uncategorized data.
+This repository is specfically for unsupervised learning algorithms _only_.
+These algorithms are usually used to solve two types of problems:
 
-2. Association: It is used to discover rules which describe relationships in your data.
+1. Clustering: Finding structures or patterns in a collection of uncategorized data.
+<img src="https://www.imperva.com/blog/wp-content/uploads/sites/9/2017/07/k-means-clustering-on-spherical-data-1v2.png">
+
+2. Association: Discovering rules which describe relationships in your data.
+<img src="https://tse2.mm.bing.net/th?id=OIP.DLs8SAeGey4Apzj8bYE8HAHaEZ&pid=Api">
 
 Some examples of the type of algorithms which can be added here:
 - K-means
@@ -32,4 +36,5 @@ git checkout -b <branch-name>
 ```
 
 3. On your branch, create a folder with the name of your algorithm and code!
+4. Don't forget to help others out by adding a README.md with details of the algorithm you implemented
 4. Create a pull request once you're done
