@@ -32,8 +32,36 @@ rules = generate_association_rules(patterns, 0.7)
 
 Both the above mentioned functions return values hence a variable must be stored each time they are called.
 
-The find_frequent_patterns prints:
-![find_pattern](output/pat.jpg)
+The find_frequent_patterns prints a dataframe:
 
-The generate_association_rules prints:
-![association](output/as_p.jpg)
+```
+Printing Patterns
+
+           0
+(5,)       2
+(1, 5)     2
+(2, 5)     2
+(1, 2, 5)  2
+(4,)       2
+(2, 4)     2
+(1,)       6
+(1, 2)     4
+(2, 3)     4
+(1, 2, 3)  2
+(1, 3)     4
+(2,)       7
+
+```
+
+The generate_association_rules prints a dataframe:
+
+```
+Printing Association 
+
+             0    1
+(5,)    (1, 2)  1.0
+(1, 5)    (2,)  1.0
+(2, 5)    (1,)  1.0
+(4,)      (2,)  1.0
+
+```
