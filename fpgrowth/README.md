@@ -11,6 +11,12 @@ This is a python implementation of the FP Growth algorithm to find patterns and 
 
 Data has to be in the form of sequence of IDs.
 
+1. The find_frequent_patterns takes a list and minimum threshold as input. 
+It returns a list of frequent patterns and prints a dataframe constructed from the returned list.
+
+2. The generate_association_rules takes the previously returned list and a minimum probability of assoicaition.
+It returns a list of patterns that are associated with each other over the provided minimum probability and prints a dataframe constructed from the same.
+
 ``` 
 from fpgrowth import find_frequent_patterns
 from fpgrowth import generate_association_rules
@@ -25,8 +31,8 @@ transactions = [[1, 2, 7],
                 [1, 2, 3, 5],
                 [1, 2, 3]]
 
-patterns = find_frequent_patterns(transactions, 2)
-rules = generate_association_rules(patterns, 0.7)
+patterns = find_frequent_patterns(transactions, 2) # List, minimum threshold 
+rules = generate_association_rules(patterns, 0.7)  # Patterns list, minimum probability 
 ```
 ### Output
 
