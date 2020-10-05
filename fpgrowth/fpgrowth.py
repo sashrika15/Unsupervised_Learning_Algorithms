@@ -1,4 +1,9 @@
 import itertools
+import pandas as pd
+pd.set_option('display.max_rows', None)
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', None)
+pd.set_option('display.max_colwidth', None)
 class FPNode(object):
     """
     A node in the FP tree.
@@ -248,6 +253,10 @@ def find_frequent_patterns(transactions, support_threshold):
     over the specified support threshold.
     """
     tree = FPTree(transactions, support_threshold, None, None)
+    pat_print = pd.DataFrame.from_dict(tree.mine_patterns(support_threshold), orient='index')
+    print("Printing Patterns \n")
+    print(pat_print, end='\n')
+    print("\n")
     return tree.mine_patterns(support_threshold)
 
 
@@ -273,4 +282,8 @@ def generate_association_rules(patterns, confidence_threshold):
                     if confidence >= confidence_threshold:
                         rules[antecedent] = (consequent, confidence)
 
+    as_print = pd.DataFrame.from_dict(rules, orient='index')
+    print("Printing Association \n")
+    print(as_print, end='\n')
     return rules
+    

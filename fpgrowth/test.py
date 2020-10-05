@@ -1,4 +1,5 @@
 from fpgrowth import find_frequent_patterns
+from fpgrowth import generate_association_rules
 import pandas as pd
 transactions = [[1, 2, 5],
                 [2, 4],
@@ -11,8 +12,5 @@ transactions = [[1, 2, 5],
                 [1, 2, 3]]
 
 patterns = find_frequent_patterns(transactions, 2)
-new = pd.DataFrame.from_dict(patterns, orient='index')
-print(new.head())
-rules = pyfpgrowth.generate_association_rules(patterns, 0.7)
-new2 = pd.DataFrame.from_dict(rules, orient='index')
-print(new2.head())
+rules = generate_association_rules(patterns, 0.7)
+
