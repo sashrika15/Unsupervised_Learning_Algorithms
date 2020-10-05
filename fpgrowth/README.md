@@ -30,7 +30,7 @@ rules = generate_association_rules(patterns, 0.7)
 ```
 ### Output
 
-Both the above mentioned functions return values hence a variable must be stored each time they are called.
+Both the above mentioned functions return values hence a variable must be used each time they are called.
 
 The find_frequent_patterns prints a dataframe:
 
