@@ -14,7 +14,7 @@ Data has to be in the form of sequence of IDs.
 1. The find_frequent_patterns takes a list and minimum threshold as input. 
 It returns a list of frequent patterns and prints a dataframe constructed from the returned list.
 
-2. The generate_association_rules takes the previously returned list and a minimum probability of assoicaition.
+2. The generate_association_rules takes the previously returned list and a minimum probability of associaition.
 It returns a list of patterns that are associated with each other over the provided minimum probability and prints a dataframe constructed from the same.
 
 ``` 
