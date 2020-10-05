@@ -26,6 +26,14 @@ transactions = [[1, 2, 7],
                 [1, 2, 3]]
 
 patterns = find_frequent_patterns(transactions, 2)
-rules = pyfpgrowth.generate_association_rules(patterns, 0.7)
+rules = generate_association_rules(patterns, 0.7)
 ```
 ### Output
+
+Both the above mentioned functions return values hence a variable must be stored each time they are called.
+
+The find_frequent_patterns prints:
+![find_pattern](output/pat.jpg)
+
+The generate_association_rules prints:
+![association](output/as_p.jpg)
