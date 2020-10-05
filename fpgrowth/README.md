@@ -26,10 +26,6 @@ transactions = [[1, 2, 7],
                 [1, 2, 3]]
 
 patterns = find_frequent_patterns(transactions, 2)
-new = pd.DataFrame.from_dict(patterns, orient='index')
-print(new.head())
 rules = pyfpgrowth.generate_association_rules(patterns, 0.7)
-new2 = pd.DataFrame.from_dict(rules, orient='index')
-print(new2.head())
 ```
 ### Output
