@@ -14,3 +14,6 @@ It will look similar to this:
 
 ![2000 Iterations 2](https://user-images.githubusercontent.com/70643852/96720572-8f177c00-13c8-11eb-8079-ead90cb4c780.png)
 
+Contributed by: Pranav B Kashyap
+
+[GitHub Profile](https://github.com/Pranav1007)
