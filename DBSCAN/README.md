@@ -26,3 +26,6 @@ At the edge, there is only one point within the given radius, and that point is 
 There is only one point in this dataset which does not have any points within its radius, hence it is coloured blue or noise point.
 
 <img src="https://github.com/sashrika15/Unsupervised_Learning_Algorithms/blob/master/DBSCAN/sample.gif" width="800">
+
+
+Contributed by: [Sashrika Surya](https://github.com/sashrika15)
