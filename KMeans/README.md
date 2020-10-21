@@ -22,3 +22,4 @@ The K-Means Algorithm scales really well to large datasets, generalized to clust
 # Additional Resource
 To know more about the K-Means Clustering Algorithm, you may check out my article <a href="https://medium.com/srm-mic/k-means-algorithm-dealing-with-unlabeled-data-747f37697d9?source=friends_link&sk=19469af001b606b65f7a096e015cc63e" target="_blank">here</a>.
 
+Contributed by: <a href="https://github.com/srijarkoroy">Srijarko Roy</a>
