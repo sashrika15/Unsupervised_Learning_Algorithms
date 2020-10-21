@@ -33,3 +33,6 @@ The first itemset is formed by grouping one item. The itemset {4} has a support 
 This process is repeated to until no more frequent itemsets can be formed.
 
 <img src="https://github.com/sashrika15/Unsupervised_Learning_Algorithms/blob/master/apriori/sample.jpg" width="800">
+
+
+Contributed by: [Sashrika Surya](https://github.com/sashrika15)
