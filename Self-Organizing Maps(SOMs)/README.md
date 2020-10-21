@@ -1,4 +1,4 @@
-**Self-Organizing Maps (SOMs)**
+# Self-Organizing Maps (SOMs)
 
 Self-Organizing Maps or SOMs is an Unsupervised Machine Learning Algorithm which reduces the dimensionality of the input so as to represent it in a map.
 
