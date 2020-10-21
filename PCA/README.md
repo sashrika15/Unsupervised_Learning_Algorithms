@@ -39,3 +39,4 @@ We then project our data points onto the principal components and finally we get
 
 ![](images/pca_demo.gif)
    
+Contributed by: [Indira Dutta](https://github.com/indiradutta) 
