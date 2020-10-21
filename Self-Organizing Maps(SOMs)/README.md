@@ -7,7 +7,7 @@ Unlike an ANN, which learns by backpropogation, SOMs, implement the concept of C
 
 This algortithm was invented by Teuvo Kohonenin the 1980s and is sometimes called Kohonen Maps.
 
-With the help of Python, I have implemented the working of a simple Self-Organizing Map where I'll be using a dataset of random colours which are represented as 3D vectors (Each value represetning R,G,B) and visualise the different clusters we can form with it in a 2D space.
+With the help of Python, I have implemented the working of a simple Self-Organizing Map where I'll be using a dataset of random colours which are represented as 3D vectors (Each colour of the vector representing R,G,B values) and visualise the different clusters we can form with it in a 2D space.
 
 It will look similar to this:
 
