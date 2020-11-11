@@ -57,7 +57,7 @@ To run the algorithm, you can just modify the test.py
 2. **Number of Clusters (num_clusters)** - Number of candidate clusters (gaussians) you would like to fit to model your data, ideally start with 2.
 3. **Number of Iterations (num_iters)** - Number of iterations to run EM (start with 100, till the Log-Likelihood curve flattens out).
 
-![figure_1.png](assets/Figure_1.png]
+![figure_1.png](assets/Figure_1.png)
 
 # References and Further Reading:
 * [Gaussian Mixture Models Explained (With Derivation)](https://towardsdatascience.com/gaussian-mixture-models-explained-6986aaf5a95)
