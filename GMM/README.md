@@ -26,6 +26,8 @@ The **Multivariate Gaussian Distribution** is given by the equation:
 
 ![multi_variate](https://miro.medium.com/max/700/1*qUy5tdKD3JF8SBpGfN9TpQ.png)
 
+![mult](https://www.researchgate.net/profile/Raghavendra_Selvan2/publication/320182941/figure/fig1/AS:631626589544513@1527602922664/Illustration-of-a-bivariate-Gaussian-distribution-The-marginal-and-joint-probability.png)
+
 * **Mu** - Mean
 * **Sigma** - Covariance Matrix
 * **x** - Data Point/Matrix
