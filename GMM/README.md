@@ -45,9 +45,10 @@ At this step, the posteriors estimated in the responsibility matrix are then uti
 These two steps are run iteratively and the values are updated till convergence.
 
 ![mean_update](https://miro.medium.com/max/395/0*L9uVNWuLFQVjqtIu)
-**Eq 1:** Mean Update,
-**Eq 2:** Covariance/Variance Update
-**Eq 3:** Normalized Responsibility matrix values
+
+* **Eq 1:** Mean Update,
+* **Eq 2:** Covariance/Variance Update
+* **Eq 3:** Normalized Responsibility matrix values
 
 The evaluation criterion is given by the log-likelihood criterion:
 
