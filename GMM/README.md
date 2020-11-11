@@ -38,7 +38,7 @@ At this step, the above equation finds the entries to a responsibility matrix, w
 
 This equation is arrived at using Bayes theorem over the mixture of gaussians.
 
-### Maximizatiion
+### Maximization
 At this step, the posteriors estimated in the representation matrix are then utilized, and update the mean, variance/covariance estimates such that the log-likelihood is maximized.
 
 These two steps are run iteratively and the values are updated till convergence.
