@@ -40,12 +40,14 @@ At this step, the above equation finds the entries to a responsibility matrix, w
 This equation is arrived at using Bayes theorem over the mixture of gaussians.
 
 ### Maximization
-At this step, the posteriors estimated in the representation matrix are then utilized, and update the mean, variance/covariance estimates such that the log-likelihood is maximized.
+At this step, the posteriors estimated in the responsibility matrix are then utilized, and update the mean, variance/covariance estimates such that the log-likelihood is maximized.
 
 These two steps are run iteratively and the values are updated till convergence.
 
 ![mean_update](https://miro.medium.com/max/395/0*L9uVNWuLFQVjqtIu)
-**Left:** Mean Update, **Right:** Covariance/Variance Update
+**Eq 1:** Mean Update,
+**Eq 2:** Covariance/Variance Update
+**Eq 3:** Normalized Responsibility matrix values
 
 The evaluation criterion is given by the log-likelihood criterion:
 
