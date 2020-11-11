@@ -55,8 +55,8 @@ A nice property of the EM algorithm is that it is strictly increasing across ite
 To run the algorithm, you can just modify the test.py
 
 1. **Number of features** - Ensure your data is in the format (n_samples, d), According to dimensionality of your data -- if you have 2-d data (x, y).
-2. **Number of Clusters (num_clusters)* - Number of candidate clusters (gaussians) you would like to fit to model your data, ideally start with 2.
-3. **Number of Iterations** - Number of iterations to run EM (start with 100, till the Log-Likelihood curve flattens out).
+2. **Number of Clusters (num_clusters)** - Number of candidate clusters (gaussians) you would like to fit to model your data, ideally start with 2.
+3. **Number of Iterations (num_iters)** - Number of iterations to run EM (start with 100, till the Log-Likelihood curve flattens out).
 
 ![figure_1.png](assets/figure_1.png]
 
