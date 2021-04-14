@@ -81,7 +81,7 @@ ICA can be broken down into the following steps.
   
   - Biomedical Signal Processing (EEG, MRI)
 
-## To use repo and obtain the graphs please follow the steps mentioned below
+## Guidelines to use the code and obtain the graphs 
 - Clone the Repository and enter the appropriate directory: 
 
         git clone https://github.com/sashrika15/Unsupervised_Learning_Algorithms
