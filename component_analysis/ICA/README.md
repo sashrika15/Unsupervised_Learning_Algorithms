@@ -103,5 +103,8 @@ ICA can be broken down into the following steps.
 <br>
 <img src = "assets/Mixed.png">
 
+<hr>
+
+Contributed by: <a href="https://github.com/srijarkoroy">Srijarko Roy</a>
 
   
