@@ -18,3 +18,4 @@ This repository was started primarily as a learning intiative so that we can und
 - Be sure to provide **proper documentation** so that others can understand your code as well! Add a README.md with the details of your implementation. 
 - Include usage guidelines in your README.md, or add a test.py file which tests your algorithm.
 - Once you are done, create a pull request! Wait for review to resolve any problems, and merge!
+![How to create a pull request](assets/pr.png)
