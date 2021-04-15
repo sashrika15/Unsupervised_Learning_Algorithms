@@ -1,0 +1,3 @@
+numpy==1.19.5
+PIL==7.1.2
+matplotlib==3.2.2
