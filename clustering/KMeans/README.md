@@ -22,7 +22,26 @@ Clustering Algorithms learn from unlabeled data by finding some structure in the
 
 ## Application:
 The K-Means Algorithm scales really well to large datasets, generalized to clusters of various shapes and guarantees convergence after a specific number of iterations. However, it fails to yield accurate results if outliers are present or density of the spread of data is not even. Nevertheless, equipped with the quality of adapting easily to new examples, K-Means is still the most widely used Unsupervised Learning Algorithm.
-<hr>
+<br>
+
+## Guidelines to use the code and obtain the graphs 
+- Clone the Repository and enter the appropriate directory: 
+
+        git clone https://github.com/sashrika15/Unsupervised_Learning_Algorithms
+
+- Entering the KMeans directory: 
+
+        cd clustering/KMeans
+        
+- Setting up the Python Environment with dependencies:
+
+        pip install -r requirements.txt
+
+- Running the file:
+
+        python3 test.py
+  
+
 
 ## Demonstration:
 ![](assets/Demonstration.gif)
