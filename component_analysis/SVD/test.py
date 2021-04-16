@@ -5,7 +5,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from PIL import Image
 
-path = '/media/dog.jpg'
+path = 'media/dog.jpg'
 img = Image.open(path)
 img_grayscale = img.convert('LA')
 plot(img_grayscale)
