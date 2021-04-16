@@ -30,11 +30,11 @@ This project is a mathematical analysis of SVD applied on an image given by the 
 
 ## Original Image
 <p align="left">
-     <img src = "/media/dog_grayscale.png">
+     <img src = "/component_analysis/SVD/media/dog_grayscale.png">
  
 ## Image after applying SVD
 <p align="left">
-    <img src = "/media/image_after_svd.png">
+    <img src = "/component_analysis/SVD/media/image_after_svd.png">
 
 ## To use this repo please follow the steps mentioned below
 
@@ -44,10 +44,10 @@ This project is a mathematical analysis of SVD applied on an image given by the 
 
 - Cloning the Repository: 
 
-        git clone https://github.com/indiradutta/Singular-Value-Decomposition/
-- Entering the directory: 
+        git clone https://github.com/sashrika15/Unsupervised_Learning_Algorithms
+- Entering the Singular Value Decomposititon directory: 
 
-        cd Singular-Value-Decomposition
+        cd component_analysis/SVD
 - Running the file:
 
         python3 test.py
