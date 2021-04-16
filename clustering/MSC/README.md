@@ -19,7 +19,7 @@ This algorithm is mostly used for computer vision and image segmentation.
 Basically it is a straightforward approach which primarily used to solve problems related to image segmentation, clustering. It is comparatively slower than K-Means and it is computationally expensive.
 
 It is evident from the image that there are 3 clusters here.
-<img src="images/before">
+<img src="images/before.png">
 
 The algorithm runs perfectly and segments the 3 clusters with their respective centeroids.
-<img src="images/after">
+<img src="images/after.png">
