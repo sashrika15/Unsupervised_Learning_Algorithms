@@ -21,6 +21,6 @@ Basically it is a straightforward approach which primarily used to solve problem
 It is evident from the image that there are 3 clusters here.
 <br>
 <img src="images/before.png" align="left">
-
+<br>
 The algorithm runs perfectly and segments the 3 clusters with their respective centeroids.
 <img src="images/after.png" align="left">
