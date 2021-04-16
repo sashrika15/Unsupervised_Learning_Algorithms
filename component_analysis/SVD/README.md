@@ -36,7 +36,7 @@ This project is a mathematical analysis of SVD applied on an image given by the 
 <p align="left">
     <img src = "/component_analysis/SVD/media/image_after_svd.png">
 
-## To use this repo please follow the steps mentioned below
+## To use this code please follow the steps mentioned below
 
 - Setting up the Python Environment with dependencies:
 
