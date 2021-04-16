@@ -8,7 +8,6 @@ This algorithm is mostly used for computer vision and image segmentation.
   <li>The procedure is effective as it has only one parameter – Bandwidth.</li>
   <li>It has better performance than K-Means Clustering.</li>
 </ul>
-<br>
 
 <h2>Cons:</h2>
 <ul>
