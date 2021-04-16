@@ -38,16 +38,15 @@ This project is a mathematical analysis of SVD applied on an image given by the 
 
 ## To use this code please follow the steps mentioned below
 
-- Setting up the Python Environment with dependencies:
-
-        pip install -r requirements.txt
-
 - Cloning the Repository: 
 
         git clone https://github.com/sashrika15/Unsupervised_Learning_Algorithms
 - Entering the Singular Value Decomposititon directory: 
 
         cd component_analysis/SVD
+ - Setting up the Python Environment with dependencies:
+
+        pip install -r requirements.txt
 - Running the file:
 
         python3 test.py
