@@ -22,5 +22,6 @@ It is evident from the image that there are 3 clusters here.
 <br>
 <img src="images/before.png" align="left">
 <br>
+Results:
 The algorithm runs perfectly and segments the 3 clusters with their respective centeroids.
 <img src="images/after.png" align="left">
