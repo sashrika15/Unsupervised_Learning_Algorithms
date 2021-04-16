@@ -1,6 +1,9 @@
-### Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
+## Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
 
 DBSCAN is a clustering algorithm which focuses on the proximity and density of observations to form clusters.
+<br />
+<br />
+
 
 ### How does it work?
 
@@ -29,7 +32,9 @@ There is only one point in this dataset which does not have any points within it
 
 ### Usage
 
-- Clone the Repository and enter the appropriate directory
+To run the algorithm, follow these steps: 
+
+- Open your terminal and clone the repository
 
         git clone https://github.com/sashrika15/Unsupervised_Learning_Algorithms
 
@@ -37,7 +42,7 @@ There is only one point in this dataset which does not have any points within it
 
         cd clustering/DBSCAN
         
-- Setting up the Python Environment with dependencies
+- Install requirements
 
         pip install -r requirements.txt
 
@@ -53,7 +58,7 @@ Minpoints = 10
 
 Number of clusters: 2
 
-<img src="assets/implementation.gif" width="800">
+<img src="assets/implementation.png" width="600">
 
 
 
