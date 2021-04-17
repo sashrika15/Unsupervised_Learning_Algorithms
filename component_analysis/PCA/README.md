@@ -38,5 +38,20 @@ We then project our data points onto the principal components and finally we get
 <br>
 
 ![](images/pca_demo.gif)
-   
-Contributed by: [Indira Dutta](https://github.com/indiradutta) 
+
+## To use this code please follow the steps mentioned below
+
+- Cloning the Repository: 
+
+        git clone https://github.com/sashrika15/Unsupervised_Learning_Algorithms
+- Entering the Singular Value Decomposititon directory: 
+
+        cd component_analysis/PCA
+ - Setting up the Python Environment with dependencies:
+
+        pip install -r requirements.txt
+- Running the file:
+
+        python3 test.py
+        
+Contributed by: <a href="https://github.com/indiradutta">Indira Dutta</a>
