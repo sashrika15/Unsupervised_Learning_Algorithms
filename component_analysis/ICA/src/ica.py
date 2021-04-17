@@ -1,5 +1,5 @@
 import numpy as np
-from utils import *
+from src.utils import *
 
 def ica(X, iterations, limit = 1e-5):
   X = center(X)
