@@ -1,4 +1,4 @@
-### Apriori Algorithm
+## Apriori Algorithm
 
 Apriori is used for frequent itemset mining over relational databases. It uses prior knowledge of frequent itemset properties.
 
@@ -32,7 +32,31 @@ The first itemset is formed by grouping one item. The itemset {4} has a support 
 
 This process is repeated to until no more frequent itemsets can be formed.
 
-<img src="https://github.com/sashrika15/Unsupervised_Learning_Algorithms/blob/master/apriori/sample.jpg" width="800">
+<img src="assets/sample.jpg" width="800">
+
+### Usage guidelines
+
+To run the algorithm, follow these steps: 
+
+- Open your terminal and clone the repository
+
+        git clone https://github.com/sashrika15/Unsupervised_Learning_Algorithms
+
+- Change to apriori directory
+
+        cd association/apriori
+
+- Run test file
+
+        python test.py
+        
+### Result from implementation
+
+Apriori algorithm can go on to find frequent itemsets for many sets of items. In this implementation, we are only finding frequent itemsets for pairs.
+
+<img src="assets/output.png" width="600">
+
+
 
 
 Contributed by: [Sashrika Surya](https://github.com/sashrika15)
