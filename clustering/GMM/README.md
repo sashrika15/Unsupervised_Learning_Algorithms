@@ -12,7 +12,7 @@ The GMM is parameterized by three components:
 
 ## Multivariate Gaussian Distribution
 
-![alt text](https://www.researchgate.net/profile/Raghavendra_Selvan2/publication/320182941/figure/fig1/AS:631626589544513@1527602922664/Illustration-of-a-bivariate-Gaussian-distribution-The-marginal-and-joint-probability.png)
+![mult](https://www.researchgate.net/profile/Raghavendra_Selvan2/publication/320182941/figure/fig1/AS:631626589544513@1527602922664/Illustration-of-a-bivariate-Gaussian-distribution-The-marginal-and-joint-probability.png)
 
 In GMMs, we use Multivariate/Univariate Gaussians to model our data.
 
