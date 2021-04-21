@@ -17,9 +17,8 @@ The GMM is parameterized by three components:
 In GMMs, we use Multivariate/Univariate Gaussians to model our data.
 
 The **Multivariate Gaussian Distribution** is given by the equation:
-
-![multi_variate](https://miro.medium.com/max/700/1*qUy5tdKD3JF8SBpGfN9TpQ.png)
-
+<!--https://miro.medium.com/max/700/1*qUy5tdKD3JF8SBpGfN9TpQ.png-->
+![equation](https://user-images.githubusercontent.com/53429438/115507008-2c307000-a299-11eb-98b4-df7a05fe4989.jpg)
 
 * **Mu** - Mean
 * **Sigma** - Covariance Matrix
@@ -37,8 +36,8 @@ A nice property of the EM algorithm is that it is **strictly increasing** across
 Values related to mean, variances are randomly initialized at the start of the process.
 
 ### Expectation:
-
-![expectation](https://miro.medium.com/max/453/1*4r_oPcLb1i-0Bv8IILKiTg.png)
+<!--https://miro.medium.com/max/453/1*4r_oPcLb1i-0Bv8IILKiTg.png-->
+![expectation](https://user-images.githubusercontent.com/53429438/115507344-9f39e680-a299-11eb-967f-3fdcdacf5ccc.jpg)
 
 At this step, the above equation finds the entries to a responsibility matrix, which essentially comprises the probability that a particular value belongs to a particular cluster.
 
@@ -56,8 +55,8 @@ These two steps are run iteratively and the values are updated till convergence.
 * **Eq 3:** Normalized Responsibility matrix values
 
 The evaluation criterion is given by the log-likelihood criterion:
-
-![log_likelihood](https://miro.medium.com/max/576/1*YOEEcpEOWLyeVvdq6ePJ0g.png)
+<!--https://miro.medium.com/max/576/1*YOEEcpEOWLyeVvdq6ePJ0g.png-->
+![log_likelihood](https://user-images.githubusercontent.com/53429438/115507494-d7d9c000-a299-11eb-9af9-af917b18aaac.jpg)
 
 To run the algorithm, you can just modify the test.py
 
