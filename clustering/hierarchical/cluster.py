@@ -84,10 +84,6 @@ def printcluster(cluster,labels=None,n=0):
   if cluster.right!=None: 
     printcluster(cluster.right,labels=labels,n=n+1)
 
-blognames,words,data = readfile('database.txt')
-cluster = hierarchical_cluster(data)
-printcluster(cluster,labels = blognames)
-
 def getheight(cluster):
   if cluster.left==None and cluster.right==None:                                     #endpoint
     return 1
@@ -141,8 +137,3 @@ def rotatematrix(data):
     newrow=[data[j][i] for j in range(len(data))]
     newdata.append(newrow)
   return newdata
-
-dendrogram(cluster,blognames,jpeg='blogoutput.jpg')
-rdata=rotatematrix(data)
-wordcluster=hierarchical_cluster(rdata)
-dendrogram(wordcluster,labels=words,jpeg='wordoutput.jpg')
