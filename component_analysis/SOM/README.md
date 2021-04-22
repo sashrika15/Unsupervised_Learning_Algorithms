@@ -37,7 +37,7 @@ $ git clone https://github.com/sashrika15/Unsupervised_Learning_Algorithms.git
 
 - Move to the SOMs Directory
 ```python
-$ cd component_analysis/SOMs
+$ cd component_analysis/SOM
 ```
 
 - All the [requirements](requirements.txt) and dependencies need to be installed. 
