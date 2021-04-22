@@ -7,7 +7,7 @@ Mean-Shift algorithm basically assigns the datapoints to the clusters iterativel
 Basically it is a straightforward approach which primarily used to solve problems related to image segmentation, clustering. It is comparatively slower than K-Means and it is computationally expensive.
 
 <h2>Working</h2>
-<img src="images/steps.png" align="middle">
+<img src="images/steps.jpeg" align="middle">
 
 It is evident from the image that there are 3 clusters here.<br>
 <img src="images/before.png" align="middle">
