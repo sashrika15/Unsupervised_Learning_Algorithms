@@ -9,6 +9,25 @@ Basically it is a straightforward approach which primarily used to solve problem
 <h2>Working</h2>
 <img src="images/steps.jpeg" align="middle">
 
+## Guidelines to use the code and obtain the graphs 
+- Clone the Repository and enter the appropriate directory: 
+
+        git clone https://github.com/sashrika15/Unsupervised_Learning_Algorithms
+
+- Entering the MSC directory: 
+
+        cd clustering/MSC
+        
+- Setting up the Python Environment with dependencies:
+
+        pip install -r requirements.txt
+
+- Running the file:
+
+        python3 test.py
+  
+<hr>
+
 It is evident from the image that there are 3 clusters here.<br>
 <img src="images/before.png" align="middle">
 
