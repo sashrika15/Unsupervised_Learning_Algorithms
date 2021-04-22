@@ -4,11 +4,14 @@ This technique is a bottom up approach in which each datapoint is considered to 
 <img src = "assets/agglomerative.png">
 
 ## Working
+
+The database used here is a blog database which contains the frequency of the words in the blogs mentioned.
+
 1. Calculate the proximity of individual points and consider easy of these data points to be a cluster.
 2. Merge similar clusters to form a single cluster and calculate the proximity of the new clusters.
 3. We repeat step 3 till all the clusters are merged and we get a single cluster.
 
-We can use dendrograms to visualize Hierarchical clustering. A dendrogram is a tree-like diagram that record the sequences of merges or splits.
+We can use dendrograms to visualize Hierarchical clustering. A dendrogram is a tree-like diagram that records the sequences of merges or splits.
 
 <img src = "assets/dendrogram.png">
 
