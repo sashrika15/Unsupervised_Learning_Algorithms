@@ -37,7 +37,7 @@ The Mean Shift Clustering Algorithm segments the 3 clusters with their respectiv
 <hr>
 
 Our obtained result:<br>
-<img src="images/output.png" height="400" width="500" >
+<img src="images/output.png" height="250" width="320" >
 
 <hr>
 <b>Contributed By:<link rel="Devansh Pratap Singh" href="https://github.com/devanshpratapsingh"></b>
