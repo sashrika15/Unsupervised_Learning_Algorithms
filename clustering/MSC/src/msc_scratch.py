@@ -1,5 +1,13 @@
 import numpy as np
 
+'''
+1. Start at every datapoint as a cluster center
+
+2. take mean of radius around cluster, setting that as new cluster center
+
+3. Repeat #2 until convergence.
+
+'''
 
 class Mean_Shift:
     def __init__(self, radius=None, radius_norm_step=100):
