@@ -31,12 +31,13 @@ With the help of the [MiniSom Library](https://github.com/JustGlowing/minisom) I
 
 - Clone the GitHub repository
 ```python
-$ git clone git@github.com:Pranav1007/SOMs.git
+$ git clone https://github.com/sashrika15/Unsupervised_Learning_Algorithms.git
+
 ```
 
 - Move to the SOMs Directory
 ```python
-$ cd SOMs
+$ cd component_analysis/SOMs
 ```
 
 - All the [requirements](requirements.txt) and dependencies need to be installed. 
