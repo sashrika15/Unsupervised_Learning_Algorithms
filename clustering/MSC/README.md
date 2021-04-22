@@ -28,10 +28,13 @@ Basically it is a straightforward approach which primarily used to solve problem
   
 <hr>
 
-It is evident from the image that there are 3 clusters here.<br>
+In the randomly generated data points, is evident from the image that there are 3 clusters here.<br>
 <img src="images/before.png" align="middle">
 
-
-Results:
-The algorithm runs perfectly and segments the 3 clusters with their respective centeroids.
+The Mean Shift Clustering Algorithm segments the 3 clusters with their respective centeroids.
 <img src="images/after.png" >
+
+<hr>
+
+Our obtained result:
+<img src="images/output.png" >
