@@ -29,7 +29,7 @@ Basically it is a straightforward approach which primarily used to solve problem
 <hr>
 
 In the randomly generated data points, is evident from the image that there are 3 clusters here.<br>
-<img src="images/before.png" align="middle">
+<img src="images/before.png" align="middle" height="500" width="500">
 
 The Mean Shift Clustering Algorithm segments the 3 clusters with their respective centeroids.
 <img src="images/after.png" >
@@ -38,3 +38,6 @@ The Mean Shift Clustering Algorithm segments the 3 clusters with their respectiv
 
 Our obtained result:<br>
 <img src="images/output.png" >
+
+<hr>
+<b>Contributed By:</b> <link rel="Devansh Pratap Singh" href="https://github.com/devanshpratapsingh">
