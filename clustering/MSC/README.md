@@ -40,4 +40,4 @@ Our obtained result:<br>
 <img src="images/output.png" height="270" width="380" >
 
 <hr>
-<b>Contributed By:<link rel="Devansh Pratap Singh" href="https://github.com/devanshpratapsingh"></b>
+Contributed by: <a href="https://github.com/devanshpratapsingh">Devansh Pratap Singh</a>
