@@ -22,10 +22,10 @@ These algorithms are usually used to solve some specific types of problems:
 
 ### Suggested algorithms
 Some algorithms which can be added here are:
-- Mean shift clustering
-- Heirarchical clustering
-- BIRCH clustering
-- IsoMap
+- [x] Mean shift clustering
+- [x] Heirarchical clustering
+- [ ] BIRCH clustering
+- [ ] IsoMap
 
 ### Contributions
 Check out this [doc](contributing.md) for details about how to contribute! Contributions are always welcome, and feel free to contact me for any help.
