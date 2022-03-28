@@ -44,7 +44,7 @@ To run the algorithm, follow these steps:
 
 - Change to apriori directory
 
-        cd association/apriori
+        cd Unsupervised_Learning_Algorithms/association/apriori
 
 - Run test file
 
